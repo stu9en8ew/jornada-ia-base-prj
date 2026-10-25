@@ -34,11 +34,11 @@
 
 
 
-.banner__img {
+.banner__img-wrapper {
     max-width: 100%;
 }
 
-.banner__descricao {
+.banner__img-descricao {
     max-width: 1200px;
     color: var(--grafite, #222);
     text-align: center;
@@ -144,6 +144,7 @@ img {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin: 0;
 }
 
 .ofertas__card--preco {
